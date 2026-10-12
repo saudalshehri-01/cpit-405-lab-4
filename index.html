@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 04: CSS Structure and Properties</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 8px 16px; font: 13px Arial, sans-serif; color: #222; }
+    h1 { margin: 0 0 24px; font-size: 24px; font-weight: 500; }
+    .intro { margin-bottom: 22px; }
+    form { width: 417px; margin: auto; }
+    h2 { margin: 0 0 18px; font: bold 28px Georgia, serif; text-align: center; }
+    label { display: block; margin: 0 0 3px; }
+    input, textarea, button { width: 100%; border: 1px solid #ccc; border-radius: 4px; font: 12px Arial, sans-serif; }
+    input { height: 31px; margin-bottom: 1px; padding: 8px; }
+    textarea { height: 177px; padding: 8px; resize: vertical; }
+    button { height: 30px; margin-top: 4px; background: #000; color: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Lab 04: CSS Structure and Properties</h1>
+  <p class="intro">Create an HTML form for placing an order to request auto parts and style it in CSS.</p>
+
+  <form>
+    <h2>Great Auto Parts - Order Form</h2>
+
+    <label for="first-name">First Name:</label>
+    <input id="first-name" type="text" placeholder="Enter your first name">
+
+    <label for="last-name">Last Name:</label>
+    <input id="last-name" type="text" placeholder="Enter your last name">
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email address">
+
+    <label for="phone">Phone number:</label>
+    <input id="phone" type="tel" placeholder="Enter your phone number">
+
+    <label for="make">Make:</label>
+    <input id="make" type="text" placeholder="Make">
+
+    <label for="model">Model:</label>
+    <input id="model" type="text" placeholder="Model">
+
+    <label for="year">Year:</label>
+    <input id="year" type="number" placeholder="Year">
+
+    <label for="date">Date:</label>
+    <input id="date" type="date">
+
+    <label for="spare-part">Spare Part:</label>
+    <input id="spare-part" type="text" placeholder="Enter the spare part you need">
+
+    <label for="quantity">Quantity:</label>
+    <input id="quantity" type="number" placeholder="Enter the quantity of the spare part you need">
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" placeholder="Enter your comment"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
